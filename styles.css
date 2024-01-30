@@ -1,0 +1,109 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+.hero{
+    background-image: url(images/egypt.jpeg);
+    background-size:cover;
+    background-position: center;
+    margin-top: 0;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#city{
+    background-color: #FB9518;
+    color: #F1FAEE; 
+    font-size: 20px;
+    padding: 3px;
+    border-radius: 5px;
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 10px; 
+}
+#citty{
+    background-color: #1D3557;
+    color: #F1FAEE;
+    font-size: 13px;
+    height: 30px;
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 1px;
+}
+.activites{
+    background-color: #FFE6A7;
+    padding: 20px 10px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin: 0;
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: 900;
+    color:  darkblue;
+    
+}
+.imgitem{
+    display: flex;
+    justify-content: space-around;
+}
+.single-img img{
+    border-radius: 50%;
+    width: 100px;
+}
+.single-img h5{
+    margin: 10px 0;
+    padding: 0 10px;
+    font-size: 14px;
+    color:#1D3557;
+}
+.single-img h3{
+    margin: 10px 0;
+    padding: 0 10px;
+    color:#1D3557;
+}
+.guide-section{
+    background: #ff7443;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.guide{
+    background:#FFE6A7;
+    background-position: center;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: #1D3557;
+    border-bottom: 6px solid #1D3557 ;
+    
+}
+.avatar {
+    width: 150px;
+}
